@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python main.py --dataset mnist --dataroot data/mnist --model dcgan --disc_loss_type ns --cuda --outf results/mnist_dcgan --lrG 0.0002 --lrD 0.0002 --beta1 0.5 --nepochs 25 --batchSize 64

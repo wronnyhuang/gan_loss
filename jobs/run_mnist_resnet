@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python main.py --dataset mnist --dataroot data/mnist --model resnet --disc_loss_type hinge --disc_iters 2 --cuda --outf results/mnist_resnet --lrG 0.0001 --lrD 0.0001 --beta1 0.9 --nepochs 100 

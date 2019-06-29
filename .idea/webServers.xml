@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b86b845e-d4d5-4beb-bd8a-1a2a6fffd414" name="ramawks95" url="http://localhost">
+        <fileTransfer host="localhost" port="8080" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="8080" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
